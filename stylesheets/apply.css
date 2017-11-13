@@ -1,0 +1,127 @@
+#apply.column-right p {
+  font-family: 'AvenirLTStd-Medium', Helvetica, sans-serif;
+  font-size: 18px;
+}
+.column.column-right h1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.navbox {
+
+  display: inline;
+}
+#admission-header-content {
+  margin-top: 25px;
+}
+#admission-info {
+  display: inline-block;
+}
+#admission-p-info {
+  margin-top: 0px;
+  display: inline;
+}
+#admission-nav {
+  margin-top: 0px;
+  margin-left: 25px;
+  list-style-type: none;
+  float: right;
+  box-shadow: 0 25px 40px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #d6d0d0;
+}
+#admission-nav li {
+  padding: 5px 0px 5px 0px;
+  border-top: 1px solid #d6d0d0;
+  padding-right: 15px;
+}
+#admission-nav li:first-child {
+  border-top: 0px;
+}
+#admission-nav li a {
+  font-family: 'AvenirLTStd-Medium', Helvetica, sans-serif;
+  color: #626262;
+  text-decoration: none;
+}
+#admission-nav li a:hover {
+  color: #3D79EA;
+}
+#admission-nav li a.active {
+  text-decoration: underline;
+}
+ul#admission-nav {
+  padding-left: 0px;
+}
+ul#admission-content {
+  padding-left: 20px;
+}
+ul#admission-content li {
+  font-size: 18px;
+  list-style-position: inherit;
+  font-family: 'AvenirLTStd-Medium', Helvetica, sans-serif;
+}
+ul#admission-content ul {
+  /*padding-left: 20px;*/
+}
+.list-content {
+  font-family: 'AvenirLTStd-Medium', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+}
+.apply-btn {
+  margin: auto;
+  margin-bottom: 35px;
+  max-width: 75%;
+  overflow: auto;
+  padding: 15px;
+  background: #4684ed;
+  color: #ffffff;
+  font-family: 'AvenirLTStd-Medium', Helvetica, sans-serif;
+  font-size: x-large;
+  border-radius: 5px;
+}
+.apply-btn span {
+  display: inline-block;
+  padding: 15px;
+}
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #2cc36a;;
+  color: #ffffff;
+  float: right;
+}
+.column-right p {
+  text-align: justify;
+}
+h2 { font-family: 'AvenirLTStd-Medium', Helvetica, sans-serif; }
+#tuition { margin-bottom: 10px; }
+#contact {
+  margin-bottom: 0px;
+}
+.contact {
+  display: block;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+.contact-list li {
+  list-style-type: none;
+}
+
+@media (min-width: 200px) and (max-width: 999px) {
+  #apply .column-left {
+    display: inline;
+    width: 90%;
+  }
+  img {
+    display: none;
+  }
+  #apply .hero {
+    padding: 0px;
+    width: 90%;
+    margin: auto;
+  }
+}

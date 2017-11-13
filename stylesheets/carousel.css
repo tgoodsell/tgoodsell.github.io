@@ -1,0 +1,25 @@
+.carousel{
+    background: #fff;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.carousel section{
+	max-width: 400px;
+	background: white;
+	font-family: Avenir, arial;
+	font-size: 30px;
+	margin: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	background-color:rgba(255, 255, 255, .8)
+}
+.btn{
+	border-radius: 0px!important;
+}
+a:hover{
+	text-decoration: none !important;
+}

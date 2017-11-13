@@ -1,0 +1,215 @@
+#team .team-member {
+  max-width: 225px;
+}
+
+#team .team-member a {
+  text-decoration: none;
+}
+
+#team .team-member .photo {
+    background-color: #D8D7D8;
+    max-height: 225px;
+    position: relative;
+    text-align: center
+}
+
+#team .team-member .photo img {
+    max-height: 225px;
+    max-width: 225px;
+}
+
+#team .team-member .photo .linkedin,
+#team .team-member .photo .twitter {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 10px;
+    display: block;
+    height: 16px;
+    position: absolute;
+    width: 18px
+}
+
+#team .team-member .photo .linkedin {
+    background-image: url(/images/linkedin-40b0cec0.png);
+    right: 10px
+}
+
+#team .team-member .photo .twitter {
+    background-image: url(/images/twitter-3c9cc920.png);
+    right: 40px
+}
+
+#team .team-member .slider {
+    max-height: 0;
+    overflow-y: hidden
+}
+
+#team .team-member .slider.open {
+    max-height: 1000px;
+    z-index: 5
+}
+
+#team .team-member .name-bar,
+#team .team-member .bio {
+    padding: 5px 5px 0px 20px;
+}
+
+#team .team-member .name {
+    font-size: 16px;
+    line-height: 32px
+}
+
+#team .team-member .bio {
+    background-color: #fffdf7
+}
+
+#team .team-member .bio p {
+    font-family: 'Calluna-Regular', serif;
+    font-size: 16px;
+    margin: 0
+}
+
+#team .team-member .title,
+#team .team-member .bio-link {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase
+}
+
+#team .team-member .title.inline,
+#team .team-member .bio-link.inline {
+    display: inline
+}
+
+#team .team-member.academic .name-bar {
+    /*background-color: #417CE7*/
+}
+
+#team .team-member.board .name-bar {
+    /*background-color: #9D58C9*/
+}
+
+#team .team-member.leadership .name-bar,
+#team .team-member.leadership.ops .name-bar,
+#team .team-member.leadership.academic .name-bar {
+    /*background-color: #39C370*/
+}
+
+#team .team-member.ops .name-bar,
+#team .team-member.interns .name-bar {
+    /*background-color: #ED5B37*/
+}
+
+#team .team-member .name-bar {
+    background-color: #dad6d6;
+    height: 125px;
+    letter-spacing: 1px
+}
+
+#team .team-member .name-bar p,
+#team .team-member .name-bar a {
+    /*color: white;*/
+    color: #656563;
+    font-family: 'AvenirLTStd-Medium', sans-serif;
+    letter-spacing: inherit;
+    margin: 0
+}
+
+#team .team-member .link-bar {
+    background-color: #646464;
+    padding: 10px 20px
+}
+
+#team .team-member .link-bar a {
+    color: #fff;
+    font-family: 'AvenirLTStd-Medium', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-decoration: underline
+}
+
+#team .team-member .separator {
+    color: #fff;
+    padding: 0 10px
+}
+
+#team .column-left {
+    float: left;
+    width: 22%
+}
+
+#team .column-left input {
+    margin: 0 5%
+}
+
+.team-profile {
+  width: 60%;
+  margin: auto;
+  overflow: auto;
+}
+
+.team-image-thumb {
+  width: 225px;
+  height: 225px;
+}
+
+.team-profile-img {
+  /*width: 100%;
+  height: 100%;*/
+  width: auto;
+  max-height: 400px;
+  float: right;
+  margin: 0px 50px 100px 0px;
+}
+
+.profile-text {
+  max-width: 50%;
+}
+
+.profile-name {
+  margin-bottom: 5px;
+  font-size: xx-large;
+  color: #656563;
+}
+
+.profile-title {
+  margin: 0px 0px 5px 0px;
+  font-size: large;
+  color: #656563;
+}
+
+.profile-bio {
+  color: #656563;
+}
+.active {
+  text-decoration: underline;
+}
+
+#department {
+  font-family: 'AvenirLTStd-Medium', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  /*margin-bottom: 10px;*/
+  display: block;
+  margin-top: 50px;
+  /*float: right;*/
+  clear: left;
+}
+
+#department a {
+  margin-left: 20px;
+  /*color: #626262;*/
+  /*text-decoration: none;*/
+  color: #656565;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+#department a:hover {
+  color: #3D79EA;
+}
+
+.inactive {
+  text-decoration: none;
+}
